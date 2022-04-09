@@ -1,0 +1,159 @@
+/* Body Section */
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* Text elements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-black';
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 5% 15%;
+}
+
+/* Sections */
+.coloured-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Headings Section */
+.big-heading {
+  font-size: 3.4rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.navbar-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% auto auto;
+}
+
+/* Title Image */
+.iphone-img {
+  transform: rotate(20deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 2%;
+}
+
+.icon-solid {
+  color: #ef8172;
+  width: 100px;
+  height: 100px;
+}
+
+.icon-solid:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press Section */
+#press {
+  padding: 5% 15%;
+  background-color: #ef8172;
+}
+
+.press-image {
+  margin: 0 3%;
+  width: 15%;
+}
+
+/* Pricing Section */
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CTA Section */
+#footer {
+  margin: 5%;
+}
+
+.social-icon {
+  margin: 10px 20px;
+}
+
+/* Media Breakpoint Query */
+@media (max-width: 1112px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
